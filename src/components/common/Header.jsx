@@ -7,8 +7,7 @@ const Header = () => {
         <Topbar></Topbar>
         {/* NavBar */}
         <Navbar></Navbar>
-        {/* Cart */}
-        {/* <Cart></Cart> */}
+
 
     </header>
 }

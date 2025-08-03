@@ -1,6 +1,5 @@
 import Hero from "../components/layout/Hero";
 import GenderCollection from "../components/products/GenderCollection";
-import NewArrivals from "../components/products/NewArrivals";
 import ProductDetails from "../components/products/ProductDetails";
 import ProductCard from "../components/products/ProductCard";
 import scrollImg from "../assets/womens-collection.png"

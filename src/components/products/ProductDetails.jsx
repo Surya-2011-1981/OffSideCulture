@@ -123,7 +123,7 @@ const ProductDetails = () => {
                     }
                 </div>
                 <div className="mainImage " >
-                    <img src={mainImage} alt="mainImage" className="rounded-xs md:w-[285px] md:min-h-[500px] min-h-[400px] border-1 border-gray-800 rounded-2xl" />
+                    <img src={mainImage} alt="mainImage" className="rounded-xs md:w-[285px] md:min-h-[500px] min-h-[400px] border-1 border-gray-800 " />
                 </div>
             </div>
 

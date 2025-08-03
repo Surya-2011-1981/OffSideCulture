@@ -56,7 +56,7 @@ const Footer = () => {
                     <h2>Call Us</h2>
                     <p className="flex text-black mt-1">
                         <LuPhoneCall className="relative top-1 right-1"></LuPhoneCall>
-                        <Link to="tel:+91 9155608284" className="hover:text-gray-600 transition-all duration-200"> +(91)- 915-560-8284</Link>
+                        <Link to="tel:+91 9155608284" className="hover:text-gray-600 transition-all duration-200"> +(91)- 123-456-7890</Link>
                     </p>
                 </div>
             </div>
