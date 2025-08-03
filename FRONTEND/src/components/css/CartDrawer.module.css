@@ -1,0 +1,9 @@
+.custom-width {
+    @media screen and(max-width: 520px) {
+        .custom_width {
+            width: 80% !important;
+            /* 2/3 width with high specificity */
+            background-color: aqua !important;
+        }
+    }
+}
