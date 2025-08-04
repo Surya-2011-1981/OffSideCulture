@@ -115,7 +115,7 @@ const ProductDetails = () => {
                             <img
                                 src={image.url}
                                 alt={image.altText || `Thumbnail ${index}`}
-                                className={`rounded-xs h-20 w-15 cursor-pointer   ${mainImage === image.url ? `border-2` : "border-gray-300"}`}
+                                className={`rounded-xs h-20 w-15 cursor-pointer relative bottom-12  ${mainImage === image.url ? `border-2` : "border-gray-300"}`}
                                 key={index}
                                 onClick={() => setMainImage(image.url)}
                             />
@@ -123,7 +123,7 @@ const ProductDetails = () => {
                     }
                 </div>
                 <div className="mainImage " >
-                    <img src={mainImage} alt="mainImage" className="rounded-xs md:w-[285px] md:min-h-[500px] min-h-[400px] border-1 border-gray-800 " />
+                    <img src={mainImage} alt="mainImage" className="rounded-xs md:w-[285px] min-h-[400px] border-1 border-gray-800 relative bottom-13" />
                 </div>
             </div>
 
